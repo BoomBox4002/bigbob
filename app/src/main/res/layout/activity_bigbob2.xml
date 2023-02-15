@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".bigbob2">
 
+    <TextView
+        android:id="@+id/tvBtn"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/tvbg"
+        android:gravity="center"
+        android:text="ХУЕЦ"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
